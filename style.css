@@ -27,6 +27,7 @@ body {
     padding: 10px 0;
     font-family: agbalumo, sans-serif;
     font-size: 18px;
+    border-bottom: 1px solid #caf0f8;
 }
 
 .navlink:hover {
@@ -230,10 +231,16 @@ h1 {
     }
     .abouth {
         padding-top: 0;
+        padding-bottom: 0;
         margin-top: 0;
+        margin-bottom: 0;
+    }
+    .aboutp {
+        font-size: 3vw;
     }
     .serviceh {
         padding-bottom: 0;
+        margin-bottom: 0;
     }
     .serviceimg {
         display: flex;
