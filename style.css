@@ -220,10 +220,8 @@ h1 {
     .headimg, .aboutimg1 {
         width: 90%;
         height: 500px;
-        padding: 0 20px 60px 20px;
+        margin: 0 20px 40px 20px;
         border-radius: 20px !important;
-        border-bottom-left-radius: 20px !important;
-        border-bottom-right-radius: 20px !important;
     }
     .headp {
         font-size: 4vw;
@@ -236,7 +234,7 @@ h1 {
         margin-bottom: 0;
     }
     .aboutp {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .serviceh {
         padding-bottom: 0;
