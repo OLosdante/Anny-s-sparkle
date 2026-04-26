@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Exo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Anny's sparkle</title>
+</head>
+<body>
+    <div class="top">
+        <div class="tt">
+           <p class="title">Anny's sparkle</p>
+        </div>
+        <div class="nav">
+            <button class="navbtn"><i class="fa-solid fa-bars" id="bar"></i></button>
+        </div>
+    </div>
+    <div class="navmenu">
+        <div class="close">
+            <button class="navclose"><i class="fa-solid fa-xmark" id="barc"></i></button>
+        </div>
+        <a href="#header" class="navlink">Home</a>
+        <a href="#aboutus" class="navlink">About Us</a>
+        <a href="#servicet" class="navlink">Services</a>
+        <a href="#contactus" class="navlink">Contact Us</a>
+    </div>
+    <div class="header" id="header">
+            <h1 class="head1">ANNY'S SPARKLE<br> CLEANING SERVICE</h1>
+            <p class="headp">Experience the Sparkle Difference with Anny's Sparkle Cleaning Service - Where Clean Meets Perfection!</p>
+    </div>
+    <div class="about">
+        <div class="aboutimg">
+            <img class="aboutimg1" src="animg2.jpg" alt="Anny's sparkle cleaning service" class="img">
+        </div>
+        <div class="headd">
+            <img class="headimg" src="animg.jpeg" alt="Anny's sparkle cleaning service" class="img">
+        </div> 
+    </div>
+    <div class="aboutus" id="aboutus">
+        <h2 class="abouth">About Us</h2>
+        <p class="aboutp">Anny's Sparkle Cleaning Service is a professional cleaning company dedicated to providing top-notch cleaning solutions for residential and commercial spaces. With a team of experienced and skilled cleaners, we strive to deliver exceptional results and exceed our clients' expectations. We use eco-friendly cleaning products and state-of-the-art equipment to ensure a thorough and efficient cleaning process. Our commitment to quality, reliability, and customer satisfaction sets us apart as a trusted choice for all your cleaning needs.</p>
+    </div>
+        <div class="servicet" id="servicet">
+            <h2 class="serviceh">Our Services</h2>
+            <p class="servicep">At Anny's Sparkle Cleaning Service, we offer a wide range of cleaning services to meet your specific needs, including:</p>
+            <ul class="servicelist">
+                <li class="serviceitem">Residential Cleaning</li>
+                <li class="serviceitem">Commercial Cleaning</li>
+                <li class="serviceitem">Move-In/Move-Out Cleaning</li>
+                <li class="serviceitem">Deep Cleaning</li>
+                <li class="serviceitem">Specialized Cleaning</li>
+        </div>
+        <div class="serviceimg">
+            <div class="imgdiv">
+                <div class="before3">
+                    <p class="beforetext">Before</p>
+                </div>
+                <div class="after3">
+                    <p class="aftertext">After</p>
+                </div>
+            </div>
+            <div class="imgdiv">
+                <div class="before4">
+                    <p class="beforetext">Before</p>
+                </div>
+                <div class="after4">
+                    <p class="aftertext">After</p>
+                </div>
+            </div>
+            <div class="imgdiv">
+                <div class="before7">
+                    <p class="beforetext">Before</p>
+                </div>
+                <div class="after7">
+                    <p class="aftertext">After</p>
+                </div>
+            </div>
+        </div>
+    <div class="footer" id="contactus">
+        <h2 class="contactus">Contact Us</h2>
+        <div class="awediv">
+            <div class="awe">
+                <i class="fas fa-phone"></i>
+            </div>
+        <p class="phone">+1 123-456-7890</p>
+        </div>
+        <div class="awediv">
+            <div class="awe">
+                <i class="fas fa-envelope"></i>
+            </div>
+        <p class="email">annyssparkle@gmail.com</p>
+        </div>
+        <div class="awediv">
+            <div class="awe">
+                <i class="fab fa-tiktok"></i>
+            </div>
+        <a href="https://tiktok.com/@annyssparklecleaning" class="tiktok" target="_blank" rel="noopener noreferrer">@annyssparklecleaning</a>
+        </div>
+        <p class="copyright">Copyright © 2026 Anny's Sparkle Cleaning Service. All rights reserved.</p>
+    </div>
+    <script>
+        const navBtn = document.getElementById('bar');
+        const navMenu = document.querySelector('.navmenu');
+        const naveclose = document.getElementById('barc');
+        const navLinks = document.querySelectorAll('.navlink');
+        
+        navBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+        
+        naveclose.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

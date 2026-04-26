@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    color: #001233;
+    background-color: #caf0f8;
+    scroll-behavior: smooth;
+}
+
+.navmenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #001233;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.navmenu.active {
+    display: block;
+}
+
+.navlink {
+    display: block;
+    color: #caf0f8;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: agbalumo, sans-serif;
+    font-size: 18px;
+}
+
+.navlink:hover {
+    color: #fff;
+}
+#bar {
+    color: #001233;
+    padding: 0;
+    margin: 0;
+}
+#barc {
+    color: #001233;
+    text-align: left;
+}
+.navclose {
+    margin-left: 180px;
+}
+.nav {
+    padding: 20px 20px 0 0;
+}
+.top {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    background-color: #001233;
+    color: #caf0f8;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 1.5vw;
+}
+ul {
+    font-family: agbalumo, sans-serif;
+}
+.tt {
+    text-align: left;
+}
+.title {
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+    font-family: unbounded, sans-serif;
+    font-weight: 900;
+}
+.chat {
+    font-family: unbounded, sans-serif;
+} 
+.header {
+    text-align: center;
+}
+h1 {
+    font-family: unbounded, sans-serif;
+    font-size: 60px;
+    padding: 100px 0 0 0;
+    line-height: 1.2;
+    font-weight: 900;
+}
+.headp {
+    font-family: agbalumo, sans-serif;
+    font-size: 20px;
+    padding: 0 0 100px 0;
+}
+.headimg {
+    width: 700px;
+    height: 600px;
+    border-radius: 60px;
+}
+.aboutimg1 {
+    width: 400px;
+    height: 600px;
+    border-radius: 60px;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+.abouth, .serviceh {
+    font-family: unbounded, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px 0 20px 40px;
+}
+.aboutp, .servicep {
+    font-family: agbalumo, sans-serif;
+    font-size: 20px;
+    padding: 0 40px 0 40px;
+
+}
+.serviceimg {
+    display: flex;
+    justify-content: space-around;
+}
+.before3 {
+    background-image: url('before3.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 60px 60px 0 0;
+    margin: 0;
+}
+.before4 {
+    background-image: url('before4.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 60px 60px 0 0;
+    margin: 0;
+}
+.before7 {
+    background-image: url('before7.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 60px 60px 0 0;
+    margin: 0;
+}
+.after3 {
+    background-image: url('after3.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 0 0 60px 60px;
+    margin: 0;
+}
+.after4 {
+    background-image: url('after4.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 0 0 60px 60px;
+    margin: 0;
+}
+.after7 {
+    background-image: url('after7.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 0 0 60px 60px;
+    margin: 0;
+}
+.beforetext, .aftertext {
+    font-family: agbalumo, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.footer {
+    background-color: black;
+    padding: 20px;
+    margin-top: 40px;
+    color: #caf0f8;
+}  
+.contactus {
+    font-family: unbounded, sans-serif;
+    color: #caf0f8;
+    text-align: left;
+}
+.awediv {
+    display: flex;
+}
+.awe {
+    padding-right: 20px;
+}
+.email, .phone, .tiktok, .copyright{
+    font-family: agbalumo, sans-serif;
+}
+.tiktok {
+    color: #caf0f8;
+    text-decoration: none;
+}
+
+@media (max-width:500px){
+    .title {
+        font-size: 3vw;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    .nav {
+        padding: 10px 10px 0 0;
+    }
+    .navmenu {
+        width: 100px;
+    }
+    .navclose {
+        margin-left: 80px;
+    }
+    .about {
+        display: block;
+    }
+    .headimg, .aboutimg1 {
+        width: 90%;
+        height: 500px;
+        padding: 0 20px 60px 20px;
+        border-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+    }
+    .headp {
+        font-size: 4vw;
+        padding: 0 20px 40px 20px;
+    }
+    .abouth {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .serviceh {
+        padding-bottom: 0;
+    }
+    .serviceimg {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .imgdiv {
+        margin: 0 20px;
+    }
+    .imgdiv {
+        display: flex;
+    }
+    .before3{
+        width: 200px;
+        border-radius: 20px 0 0 0;
+    }
+    .before4 {
+        width: 200px;
+        border-radius: 0;
+    }
+    .before7 {
+        width: 200px;
+        border-radius: 0 0 0 20px;
+    }
+    .after3 {
+        width: 200px;
+        border-radius: 0 20px 0 0;
+    }
+    .after4 {
+        width: 200px;
+        border-radius: 0;
+    }
+    .after7 {
+        width: 200px;
+        border-radius: 0 0 20px 0;
+    }
+}
